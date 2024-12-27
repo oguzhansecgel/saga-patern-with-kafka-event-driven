@@ -9,9 +9,11 @@
         <module name="order-service" />
         <module name="payment-service" />
         <module name="common" />
-        <module name="shipping-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="shipping-service" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
